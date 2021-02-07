@@ -1,0 +1,37 @@
+h1 {
+	color: #ffffff;
+	background-image: url("./top-cover.jpg");
+	height:500px;
+	background-size: 100%;
+	text-align: center;
+	line-height: 500px;
+}
+
+img {
+	height: 300px;
+
+}
+
+.div1 img{
+	float:left;
+	padding-right: 30px;
+}
+
+.div1 h2 {
+	padding-top: 20px; 
+}
+.paragraph {
+padding-top: 20px;
+padding-bottom: 60px;
+
+}
+
+.div2 {
+	text-align: center;
+}
+
+.div2 img{
+padding-right: 40px;
+padding-left: 40px;
+padding-top: 20px;
+}

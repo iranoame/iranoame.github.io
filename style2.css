@@ -1,0 +1,15 @@
+img {
+	width: 300px;
+}
+
+.pic ul{
+	list-style: none;
+
+}
+
+.pic li {
+	width: ;
+	display: flex;
+	flex-wrap:wrap;
+
+}
