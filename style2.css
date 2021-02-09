@@ -13,3 +13,11 @@ img {
 	flex-wrap:wrap;
 
 }
+
+#container {
+	padding: 30px 250px;
+}
+
+h1 {
+	text-align: center;
+}

@@ -1,3 +1,5 @@
+
+
 h1 {
 	color: #ffffff;
 	background-image: url("./top-cover.jpg");
@@ -5,25 +7,35 @@ h1 {
 	background-size: 100%;
 	text-align: center;
 	line-height: 500px;
+	font-size: 3em;
+	font-family: 'Merriweather', serif;
 }
 
 img {
 	height: 300px;
+	opacity: 0.8;
 
 }
 
 .div1 img{
 	float:left;
 	padding-right: 30px;
+	padding-left:60px;
 }
 
 .div1 h2 {
 	padding-top: 20px; 
 }
+
+.About h2 {
+	font-size: 2em;
+}
+
 .paragraph {
 padding-top: 20px;
 padding-bottom: 60px;
-
+padding-right: 90px;
+font-family: Archivo-Bold, Arial;
 }
 
 .div2 {
@@ -34,4 +46,48 @@ padding-bottom: 60px;
 padding-right: 40px;
 padding-left: 40px;
 padding-top: 20px;
+}
+
+
+.Europe {
+	position: relative;
+	float:left;
+
+	
+}
+
+.Europe p {
+	position: absolute;
+	color: white;
+	top: 50%;
+	left: 50%;
+	font-weight: bold;
+	font-size: 2em;
+	-ms-transform: translate(-50%,-50%);
+  	-webkit-transform: translate(-50%,-50%);
+  	transform: translate(-50%,-50%);
+  	margin:0;
+  	padding:0;
+
+}
+
+.Asia {
+	position: relative;
+	float: left;
+
+
+}
+
+.Asia p {
+	position: absolute;
+	color: white;
+	top: 50%;
+	left: 50%;
+	font-weight: bold;
+	font-size: 2em;
+	-ms-transform: translate(-50%,-50%);
+  	-webkit-transform: translate(-50%,-50%);
+  	transform: translate(-50%,-50%);
+  	margin:0;
+  	padding:0;
 }
