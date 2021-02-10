@@ -1,6 +1,4 @@
-body {
-	background-color: #ffffff;
-}
+
 
 #Header {
 	color: #ffffff;
@@ -55,12 +53,14 @@ img {
 .div2 {
 	text-align: center;
 	background-color: 
+
 }
 
 .div2 img{
 padding-right: 40px;
 padding-left: 40px;
 padding-top: 20px;
+
 }
 
 .div2 h2 {
@@ -73,13 +73,14 @@ padding-top: 20px;
 	top: 10px;
   	left: 330px;
 	float:left;
-
+overflow: hidden;
+padding-bottom: 50px;
 }
 
 .Europe p {
 	position: absolute;
 	color: white;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	font-weight: bold;
 	font-size: 2em;
@@ -97,13 +98,14 @@ padding-top: 20px;
 	top: 10px;
   	left: 350px;
 	float: left;
-
+overflow: hidden;
+padding-bottom: 50px; 
 }
 
 .Asia p {
 	position: absolute;
 	color: white;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	font-weight: bold;
 	font-size: 2em;
@@ -115,18 +117,16 @@ padding-top: 20px;
 }
 
 
-.wrapper{
-  min-height: 100vh;
+.end{
   position: relative;
-
+  clear: both;
 }   
 
 footer {
-  width: 100%;
-  height: 300px;
-  position: absolute;
-  bottom: 0; 
-  background-color: #aacfcf; 
+	width: 100%;
+  	position: absolute;
+  	background-color: #aacfcf; 
+
 }
 
 footer img {
