@@ -10,19 +10,72 @@
 
 <body>
 
-<h1>Asia</h1>
+  <h1>Asia</h1>
+  <h4>マウスオーバーで画像の詳細を見よう</h4>
+
 <div id="container">
-  <div id="itemA"><img src="./jpn-sky.jpg"></div>
-  <div id="itemB"><img src="./tokyo-sky.jpg"></div>
-  <div id="itemC"><img src="./tokyo-sunset.png"></div>
-  <div id="itemD"><img src="./Asia-cover.jpg"s></div>
-  <div id="itemE"><img src="./christmas.jpg"></div>
-  <div id="itemF"><img src="./thai-sunset.jpg"></div>
-  <div id="itemG"><img src="./thai-beach.jpg"></div>
-  <div id="itemH"><img src="./samui-beach.jpg"></div>
-  <div id="itemI"><img src="./singapore.jpg"></div> 
+
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div id="itemA" class="front"><img src="./jpn-sky.jpg"></div>
+    <div class="back"><p>よく晴れた秋の空。東京もまだまだ空気がきれいで安心した。</p></div>
+  </div>
+</div>
+
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div id="itemB" class="front"><img src="./tokyo-sky.jpg"></div>
+    <div class="back"><p>箱根駅伝を直前に迎えた日本橋。空には昼間から三日月が出ていた。</p></div>
+  </div>
+</div>
+
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div id="itemC" class="front"><img src="./tokyo-sunset.png"></div>
+    <div class="back"><p>渋谷、ガラス越しの夕焼け。空にはきれいなグラデーションができていた。さすが高層ビルからの眺めは良い。</p></div>
+  </div>
+</div>
+
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div id="itemD" class="front"><img src="./Asia-cover.jpg"></div>
+    <div class="back"><p>千葉。うっすら膜のように浮かぶ雲も好きで撮ってしまう。誰も上を見ていなくて、少し悲しかった。</p></div>
+  </div>
+
+</div><div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div id="itemE" class="front"><img src="./christmas.jpg"></div>
+    <div class="back"><p>クリスマスシーズン、閑散としたイルミネーションスポットにあったツリーを撮っていたら月も映った。上の写真と同じ月のような気がする。</p></div>
+  </div>
+
+</div><div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div id="itemF" class="front"><img src="./thai-sunset.jpg"></div>
+    <div class="back"><p>タイのどこかのリゾート地。サンセットを見られる時間帯を教えてもらいしっかり撮った。他にもこの瞬間を狙っていた人がちらほら居た。</p></div>
+  </div>
+
+</div><div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div id="itemG" class="front"><img src="./thai-beach.jpg"></div>
+    <div class="back"><p>サムイ島というタイの島。首都であるバンコクは空気が汚いのでこのような青空を見られるのは特に島にいるときだと思う。</p></div>
+  </div>
+
+</div><div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div id="itemH" class="front"><img src="./samui-beach.jpg"></div>
+    <div class="back"><p>タイのどこかのリゾート地。海も空もきれいな場所。</p></div>
+  </div>
+
+</div><div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div id="itemI" class="front"><img src="./rainbow.jpg"></div>
+    <div class="back"><p>土砂降りに遭い、急激に晴れたあとの空。周辺に居た人はみな同じ方向を向いて虹を見ていた。</p></div>
+  </div>
+</div>
 
 </div>
+
+
 
 <div class="button">
 <a href="./index.html" class="btn btn-flat"><span>BACK TO HOME</span></a>
